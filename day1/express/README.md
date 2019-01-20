@@ -1,6 +1,11 @@
 # Express.js 웹서버 만들기
 *Express.js를 활용해 간단한 웹서버를 제작합니다*
 
+- 프로젝트 폴더 내에 `.gitignore` 파일을 만듭니다
+```
+node_modules
+```
+
 - 프로젝트를 시작하는데 필요한 Dependencies를 설치합니다
 ```bash
 $ yarn init               # 새로운 Node 프로젝트를 생성합니다

@@ -1,6 +1,13 @@
 # 1. Parcel을 활용한 기본적인 웹 개발 환경 설정
 *[Parcel](https://parceljs.org/)을 활용해 쉽게  HTML/CSS 개발 환경을 설정합니다 [이동](./parcel)*
 
+- 프로젝트 폴더 내에 `.gitignore` 파일을 만듭니다
+```
+node_modules
+dist
+.cache
+```
+
 - 프로젝트를 시작하는데 필요한 Dependencies를 설치합니다
 ```bash
 $ yarn init                       # 새로운 Node 프로젝트를 생성합니다
