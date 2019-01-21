@@ -8,6 +8,11 @@ node_modules
 
 - 프로젝트를 시작하는데 필요한 Dependencies를 설치합니다
 ```bash
+$ npm init                              # 새로운 Node 프로젝트를 생성합니다
+$ npm install express body-parser cors  # 설치
+$ npm install --save-dev nodemon        # 개발용 nodemon을 설치합니다
+
+# 또는
 $ yarn init               # 새로운 Node 프로젝트를 생성합니다
 $ yarn add express        # Express를 설치합니다
 $ yarn add body-parser    # body-parser를 설치합니다
