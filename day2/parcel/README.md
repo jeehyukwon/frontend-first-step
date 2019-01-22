@@ -10,8 +10,8 @@ dist
 
 - 프로젝트를 시작하는데 필요한 Dependencies를 설치합니다
 ```bash
-$ yarn init                       # 새로운 Node 프로젝트를 생성합니다
-$ yarn add --dev parcel-bundler   # Parcel Bundler를 설치합니다
+$ npm init                       # 새로운 Node 프로젝트를 생성합니다
+$ npm install --save-dev parcel-bundler   # Parcel Bundler를 설치합니다
 ```
 
 - 프로젝트 폴더 내에 `src` 폴더를 만듭니다
